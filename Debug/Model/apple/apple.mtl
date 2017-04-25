@@ -1,0 +1,29 @@
+# Modified from: http://tf3dm.com/3d-model/apple-51047.html
+# 
+# Bounding box of geometry = (23.5545,0.709068,-36.6852) to (88.9368,78.2681,32.2648).
+
+newmtl default
+	Ns 32
+	d 1
+	illum 2
+	Kd 0.4 0.4 0.4
+	Ks 0.7 0.7 0.7
+	Ka 0.3 0.3 0.3
+
+newmtl apple__skin_0
+	Ns 32
+	d 1
+	illum 2
+	Kd 1.0 1.0 1.0
+	Ks 0.8 0.8 0.8
+	Ka 0.05 0.05 0.05
+	map_Kd skin.raw.ppm
+
+newmtl apple__stem_0
+	Ns 4
+	d 1
+	illum 2
+	Kd 1.0 1.0 1.0
+	Ks 0.4 0.4 0.4
+	Ka 0.05 0.05 0.05
+	map_Kd stem_color.raw.ppm
